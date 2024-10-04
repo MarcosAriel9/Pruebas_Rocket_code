@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" th:href="@{/css/estilo.css}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Bootstrap CSS -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Prueba Técnica de Marcos Ariel Ordoñez Jiménez</a>
+    </nav>
+
+
+    <div class="container text-center mt-5">
+        <h1>Bienvenido a la gestión de tareas</h1>
+        <br>    
+        <h3>Si desea registrar una nueva tarea, favor de dar clic en el siguiente botón:</h3>
+        <br> 
+        <a href="/nueva-tarea" class="btn btn-primary btn-lg rounded-pill">Registrar una nueva tarea</a> <!-- Botón redondeado -->
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
